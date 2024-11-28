@@ -1,4 +1,9 @@
-## **Sudoku Solver Documentation**
+## **Sudoku Solver** <a href="https://sudoku-solver-v-isual.vercel.app/">
+  <img src="/image.png" width="50" height="50" />
+</a>
+
+
+
 
 ### **Overview**
 This program solves a Sudoku puzzle using a combination of **backtracking** and partial setup for the **Dancing Links (DLX)** algorithm. However, only backtracking is implemented for solving, while the dancing links structure is initialized but not utilized.
