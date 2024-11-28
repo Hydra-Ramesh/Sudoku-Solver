@@ -140,3 +140,54 @@ Solved Successfully! Time: 300 μs
 1. Complete the Dancing Links (DLX) algorithm.
 2. Add input validation for the initial board.
 3. Optimize the backtracking by maintaining dynamic candidate lists.
+
+
+Here’s how you can **append** the GitHub link and the "How to Run" instructions **without altering the existing documentation structure**:
+
+---
+
+### **GitHub Repository**  
+You can find the source code here: [Sudoku Solver GitHub Repository](https://github.com/Hydra-Ramesh/Sudoku-Solver.git)
+
+---
+
+### **How to Run the Program on Any Machine**
+
+#### **1. Prerequisites**  
+- A C++ compiler:  
+  - For Linux/MacOS: `g++` (part of GCC).  
+  - For Windows: MinGW or Visual Studio.  
+- Optional: An IDE like Visual Studio, Code::Blocks, or VS Code.
+
+#### **2. Steps**  
+1. Clone the repository:  
+   ```
+   git clone https://github.com/Hydra-Ramesh/Sudoku-Solver.git
+   ```
+2. Navigate to the directory:  
+   ```
+   cd Sudoku-Solver
+   ```
+
+##### **On Linux/MacOS**  
+1. Compile the program:  
+   ```
+   g++ -o SudokuSolver SudokuSolver.cpp
+   ```
+2. Run the executable:  
+   ```
+   ./SudokuSolver
+   ```
+
+##### **On Windows**  
+1. Compile using MinGW:  
+   ```
+   g++ -o SudokuSolver SudokuSolver.cpp
+   ```
+   Or use Visual Studio to open and build the `.cpp` file.  
+2. Run the program:  
+   ```
+   SudokuSolver.exe
+   ```
+
+---
